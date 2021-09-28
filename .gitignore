@@ -3,3 +3,4 @@ node_modules
 kml-files
 errors.json
 *.iml
+vcs.xml
