@@ -1,0 +1,51 @@
+{
+  "name": "wherewasrahul-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon src/server.ts"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.12",
+    "@types/koa": "^2.13.1",
+    "@types/koa-json": "^2.0.18",
+    "@types/koa-logger": "^3.1.1",
+    "@types/koa-ratelimit": "^4.2.2",
+    "@types/koa-router": "^7.4.2",
+    "@types/koa-static": "^4.0.1",
+    "@types/koa2-cors": "^2.0.1",
+    "@types/pg": "^8.6.0",
+    "@types/puppeteer": "^5.4.4",
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^7.27.0",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.2.4"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.24.0",
+    "dotenv": "^10.0.0",
+    "fs-extra": "^10.0.0",
+    "joi": "^17.4.2",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-force-https": "^2.0.1",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-ratelimit": "^5.0.0",
+    "koa-router": "^10.0.0",
+    "koa-send": "^5.0.1",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "parse-kml": "^1.0.1",
+    "puppeteer": "^10.2.0",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-stealth": "^2.7.10"
+  }
+}
